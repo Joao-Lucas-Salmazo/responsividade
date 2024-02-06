@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  color: #5d5d7d;
+  font-weight: 400;
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+}
+
+.conteiner-l {
+  display: inline-block;
+  width: 60%;
+  height: 100%;
+  margin-top: 10%;
+  padding-left: 85px;
+}
+
+.conteiner-l h1 {
+  font-size: 70px;
+  width: 368px;
+}
+
+.conteiner-l p {
+  font-size: 28px;
+  opacity: 0.6;
+  margin: 15px 0;
+  width: 540px;
+}
+
+.conteiner-l button {
+  width: 269px;
+  height: 62px;
+  background: rgba(148, 153, 234, 1);
+  color: white;
+  box-shadow: 0px 10px 24px 0px rgba(148, 153, 234, 0.1);
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.conteiner-l button:hover {
+  opacity: 0.8;
+}
+
+.conteiner-l button:active {
+  opacity: 0.5;
+}
+
+.conteiner-r {
+  display: inline-block;
+  background: rgba(93, 93, 125, 0.16);
+  height: 160%;
+  width: 40%;
+  position: absolute;
+}
+
+.conteiner-r nav {
+  margin: 24px 0 0 57px;
+}
+
+.conteiner-r a {
+  font-size: 28px;
+  line-height: 40px;
+  text-decoration: none;
+  cursor: pointer;
+  color: #5d5d7d;
+  margin-right: 41px;
+}
+
+.conteiner-r a:active {
+  opacity: 0.5;
+}
+
+.conteiner-r img {
+  position: relative;
+  top: 15%;
+  right: 130px;
+}
+
+@media (max-width: 1100px){
+    .conteiner-l{
+        width: 100%;
+        height: 50%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .conteiner-l h1{
+        font-size: 36px;
+        line-height: 52px;
+        width: auto;
+        margin: 58px 50px 0 50px;
+        text-align: center;
+    }
+
+    .conteiner-l p {
+        margin: 15px 40px;
+        width: auto;
+        text-align: center;
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .conteiner-l button {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .conteiner-r {
+        display: block;
+        height: auto;
+        width: 100%;
+        position: static;
+        padding: 40px;
+    }
+
+    .conteiner-r img {
+        position: static;
+        max-width: 90%;
+
+    }
+
+    .conteiner-r nav {
+        display: none;
+    }
+}
+
+@media (max-width: 450px) {
+    .conteiner-l {
+        height: 50%;
+    }
+}
